@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-white font-sans;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-secondary;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-accent/50 rounded-full hover:bg-accent/70 transition-colors duration-300;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-dark text-white;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary hover:bg-accent text-white;
+  }
+  
+  .section {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+/* Glassmorphism */
+.glass {
+  @apply bg-secondary/20 backdrop-blur-xl border border-white/5 shadow-2xl;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.1)
+  );
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.37),
+    0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Neon text effect */
+.neon-text {
+  @apply text-accent;
+  text-shadow: 0 0 5px #1DCD9F, 0 0 10px #1DCD9F, 0 0 20px #1DCD9F;
+}
