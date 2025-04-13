@@ -12,20 +12,6 @@
   ![RayTracerNG Banner 2](https://github.com/Nischaya008/RayTracerNG/blob/main/RayTracerNG_Assets/Screenshot%202025-04-13%20202525.png)
 </details>
 
-<p align="center">
-  <img src="assets/banner1.png" alt="RayTracerNG Banner" width="100%" id="banner-slider">
-</p>
-
-<script>
-  let bannerIndex = 0;
-  const banners = ["assets/banner1.png", "assets/banner2.png"];
-  setInterval(() => {
-    bannerIndex = (bannerIndex + 1) % banners.length;
-    document.getElementById("banner-slider").src = banners[bannerIndex];
-  }, 5000);
-</script>
-
-
 ## 🚀 Overview
 RayTracerNG is a powerful, real-time 2D ray tracing engine designed using modern OpenGL and C++. It provides an interactive environment to explore light physics, offering dynamic lighting, interactive scene manipulation, and real-time performance metrics.
 
