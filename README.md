@@ -1,5 +1,16 @@
-![RayTracerNG Banner 1](https://github.com/Nischaya008/RayTracerNG/blob/main/RayTracerNG_Assets/Screenshot%202025-04-12%20175423.png)
-![RayTracerNG Banner 2](https://github.com/Nischaya008/RayTracerNG/blob/main/RayTracerNG_Assets/Screenshot%202025-04-13%20202525.png)
+# RayTracerNG - Modern 2D Ray Tracing Engine
+
+<details>
+  <summary>Application</summary>
+
+  ![RayTracerNG Banner 1](https://github.com/Nischaya008/RayTracerNG/blob/main/RayTracerNG_Assets/Screenshot%202025-04-12%20175423.png)
+</details>
+
+<details>
+  <summary>Website</summary>
+
+  ![RayTracerNG Banner 2](https://github.com/Nischaya008/RayTracerNG/blob/main/RayTracerNG_Assets/Screenshot%202025-04-13%20202525.png)
+</details>
 
 <p align="center">
   <img src="assets/banner1.png" alt="RayTracerNG Banner" width="100%" id="banner-slider">
@@ -14,7 +25,6 @@
   }, 5000);
 </script>
 
-# RayTracerNG - Modern 2D Ray Tracing Engine
 
 ## 🚀 Overview
 RayTracerNG is a powerful, real-time 2D ray tracing engine designed using modern OpenGL and C++. It provides an interactive environment to explore light physics, offering dynamic lighting, interactive scene manipulation, and real-time performance metrics.
@@ -168,5 +178,6 @@ For any inquiries or feedback, reach out via:
 - 🐦 Twitter: [@Nischaya008](https://x.com/Nischaya008)
 - 💼 LinkedIn: [Nischaya Garg](https://www.linkedin.com/in/nischaya008/)
 
-> “Light is the shadow of God.” – Plato
 Stay Innovated, Keep Coding, Think BIG! 🚀
+> “Light is the shadow of God.” – Plato
+
