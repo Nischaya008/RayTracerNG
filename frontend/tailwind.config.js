@@ -13,7 +13,8 @@ export default {
         'accent-dark': '#169976',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Inter var', 'Inter', 'sans-serif'],
+        inter: ['Inter var', 'Inter', 'sans-serif'],
         display: ['Poppins', 'sans-serif'],
       },
       animation: {
